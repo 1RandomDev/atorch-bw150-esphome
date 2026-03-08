@@ -1,6 +1,6 @@
 # Atorch Tuya ESPHome
 
-Instructions and examples on how to convert Tuya enabled electronic loads from Atorch to ESPHome for local control with HomeAssistant.
+Instructions and examples on how to convert Tuya enabled electronic loads from Atorch to ESPHome for local control with HomeAssistant. The script is based on the [Tuya MCU component](https://esphome.io/components/tuya/).
 
 ![HomeAssistant controls](images/homeassistant-entities-controls.png)
 ![HomeAssistant sensors](images/homeassistant-entities-sensors.png)
@@ -46,7 +46,7 @@ Before soldering the module, verify that it's connected to your WiFi and you're 
 > [!IMPORTANT]
 > Only the new variant can be upgraded, see [Pictures](images/atorch-dl24-new-variant.jpg) for comparison.
 
-The default firmware of the DL24 doesn't include WiFi support; therefore, we first need to flash the improved firmware of the BW150, which uses identical hardware. The script is based on the [Tuya MCU component](https://esphome.io/components/tuya/).
+The default firmware of the DL24 doesn't include WiFi support; therefore, we first need to flash the improved firmware of the BW150, which uses identical hardware.
 
 The BW150 desktop app and firmware can be found [here](http://en.atorch.cn/NewsDetail.aspx?ID=84). After downloading the files, follow the firmware update instructions in the app. If the DL24 is not recognized, check if you have the new hardware variant.
 

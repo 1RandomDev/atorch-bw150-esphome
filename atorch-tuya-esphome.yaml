@@ -73,9 +73,9 @@ sensor:
     device_class: current
     state_class: measurement
     unit_of_measurement: A
-    accuracy_decimals: 2
+    accuracy_decimals: 3
     filters:
-      - multiply: 0.01
+      - multiply: 0.001
   # Power
   - platform: tuya
     name: Power

@@ -59,7 +59,7 @@ If you have an idea what DP 115 and 120 are used for, feel free to open an issue
 DP Id | Type | Description | Prescaler | Writable
 -- | -- | -- | -- | --
 101 | Integer | Cur voltage (V) | / 100 |
-102 | Integer | Cur current (A) | / 100 |
+102 | Integer | Cur current (A) | / 1000 |
 103 | Integer | Cur power (W) | / 100 |
 104 | Boolean | Load ON/OFF |  | X
 105 | Integer | Capacity (mAh) |  | 
@@ -67,15 +67,15 @@ DP Id | Type | Description | Prescaler | Writable
 107 | Integer | Screen brightness 1-9, not readable | | X
 108 | Enum | Operating mode 0-8. Starting with CC, same order as in the main menu. |  | X
 109 | Integer | Set value (dependent on operating mode) | / 100 | X
-110 | Integer | Limit time (h), *conversion needs further testing* | /100 | X
+110 | Integer | Limit time (h), *conversion needs further testing* | / 100 | X
 111 | Integer | Charge cutoff voltage (V) | / 100 | X
 112 | Integer | Discharge cutoff voltage (V) | / 100| X
-113 | Integer | CPU temperature | / 10 | 
-114 | Integer | MOS temperature | / 10 | 
+113 | Integer | CPU temperature (°C) | / 10 | 
+114 | Integer | MOS temperature (°C) | / 10 | 
 116 | Enum | Selected battery number | + 1 | X
 115 | | *unknown, probably not readable* | | X
 117 | Integer | Temp limit ext. sensor (°C) |  | X
-118 | Integer | External sensor temperature |  | 
+118 | Integer | External sensor temperature (°C) |  | 
 119 | Boolean | Clear capacity and energy measurements | | X
 120 | Integer | *unknown* |  | X
 121 | Integer | Temp limit MOSFET (°C) |  | X

@@ -51,7 +51,7 @@ The default firmware of the DL24 doesn't include WiFi support; therefore, we fir
 The BW150 desktop app and firmware can be found [here](http://en.atorch.cn/NewsDetail.aspx?ID=84). After downloading the files, follow the firmware update instructions in the app. If the DL24 is not recognized, check if you have the new hardware variant.
 
 ## Extra steps for Atorch BW150
-The existing Tuya based WiFi module (small standing PCB next to the buzzer) needs to be removed before continuing with the conversion.
+The existing Tuya based WiFi module (small standing PCB next to the buzzer) needs to be removed before continuing with the conversion. With small modifications to the script the original module can also be reused instead of an ESP8266.
 
 ## List of discovered Tuya data points
 If you have an idea what DP 115 and 120 are used for, feel free to open an issue.

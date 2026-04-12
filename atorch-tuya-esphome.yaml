@@ -30,7 +30,7 @@ mqtt:
   broker: !secret mqtt_host
   username: !secret mqtt_username
   password: !secret mqtt_password
-  id: atorch_bw150
+  discovery_unique_id_generator: mac
 
 uart:
     tx_pin: TX # TX1 for CB2S

@@ -1,4 +1,4 @@
-# Atorch Tuya ESPHome
+# Atorch BW150 ESPHome
 
 Instructions and examples on how to convert Tuya enabled electronic loads from Atorch to ESPHome for local control with HomeAssistant.
 
